@@ -1,4 +1,4 @@
-# saltstack-cluster
+# saltstack-demo
 
 A simple multi Vagrant box setup to play around with Saltstack. You need working Vagrant on your machine to use this demo.
 
@@ -15,6 +15,6 @@ Also if you face issue with network or getting box up, try changing the subnet i
 SALT_SUBNET="10.10.17"
 SALT_MASTER_ADDRESS="10.10.17.10"
 ```
-Once `vagrant up --provision` runs successfully, you should see one master and multiple agents based on your configuration. With default configuration here is what I see:
+Once `vagrant up --provision` runs successfully, you should see one master and multiple agents based on your configuration.
 
 ```
